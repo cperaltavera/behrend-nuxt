@@ -44,7 +44,7 @@
         <div class="row">
           <div class="col l6 s12">
             <h5 class="footer-title">Store Bio</h5>
-            <p class="footer-text">
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
               interdum congue ante, eu ultrices eros finibus ut. Donec libero
               ligula, varius tincidunt metus non, aliquet faucibus purus.
@@ -62,23 +62,23 @@
         </div>
       </div>
       <div class="footer-copyright">
-        <div class="copyright-desktop container">
+        <div class="container desktop">
           <div class="row">
             <div class="col s12">
-              © Copyright <a class="footer-link" href="#">Grúas Behrend</a>. Todos los derechos reservados. Powered by <a class="footer-link" href="#">Dev-Manage</a>
+              © Copyright <a class="footer-link" href="#">Grúas Behrend</a>. Todos los derechos reservados. Powered by <a class="footer-link" href="#">Dev-Manage</a>.
             </div>
           </div>
         </div>
-        <div class="copyright-mobile container center">
+        <div class="container mobile center">
           <div class="row">
             <div class="col s12">
               © Copyright <a class="footer-link" href="#">Grúas Behrend</a>.
             </div>
             <div class="col s12">
-              Todos los derechos reservados.    
+              Todos los derechos reservados.
             </div>
             <div class="col s12">
-              Powered by <a class="footer-link" href="#">Dev-Manage</a>    
+              Powered by <a class="footer-link" href="#">Dev-Manage</a>.
             </div>
           </div>
         </div>

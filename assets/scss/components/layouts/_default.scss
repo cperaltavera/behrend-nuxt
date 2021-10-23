@@ -1,7 +1,4 @@
 // Mains
-p {
-    line-height: 2rem;
-}
 body {
     background-color: #f4f4f4;
 }
@@ -32,15 +29,16 @@ nav ul li a.nuxt-link-exact-active {
 // Footer
 .page-footer {
     background-color: #e6e6e6;
+    color: #666;
 }
 .footer-title {
     color: rgba(0,0,0,0.87);
     font-size: 18px;
     font-weight: 600;
 }
-.footer-text, .footer-link {
-    color: #666;
-    font-weight: normal !important;
+.footer-link {
+    color: #333;
+    font-weight: 600;
 }
 .footer-link {
     &:hover {
@@ -48,33 +46,37 @@ nav ul li a.nuxt-link-exact-active {
     }
 }
 .footer-copyright {
-    color: rgba(0,0,0,0.87) !important;
-    font-weight: 600;
+    font-size: 12px;
     .container {
         .row {
             margin-bottom: 0px;
+            color: #666;
         }
     }
 }
 /* Mobile */
 @media only screen and (max-width: 600px) {
-    .copyright-desktop {
-        display: none;
-        visibility: hidden;
-    }
-    .copyright-mobile {
-        display: block;
-        visibility: visible;
+    .footer-copyright {
+        .desktop {
+            display: none;
+            visibility: hidden;
+        }
+        .mobile {
+            display: block;
+            visibility: visible;
+        }
     }
 }
 /* Desktop */
 @media only screen and (min-width: 601px) {
-    .copyright-desktop {
-        display: block;
-        visibility: visible;
-    }
-    .copyright-mobile {
-        display: none;
-        visibility: hidden;
+    .footer-copyright {
+        .desktop {
+            display: block;
+            visibility: visible;
+        }
+        .mobile {
+            display: none;
+            visibility: hidden;
+        }
     }
 }
