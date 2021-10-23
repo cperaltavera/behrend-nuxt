@@ -50,4 +50,31 @@ nav ul li a.nuxt-link-exact-active {
 .footer-copyright {
     color: rgba(0,0,0,0.87) !important;
     font-weight: 600;
+    .container {
+        .row {
+            margin-bottom: 0px;
+        }
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .copyright-desktop {
+        display: none;
+        visibility: hidden;
+    }
+    .copyright-mobile {
+        display: block;
+        visibility: visible;
+    }
+}
+/* Desktop */
+@media only screen and (min-width: 601px) {
+    .copyright-desktop {
+        display: block;
+        visibility: visible;
+    }
+    .copyright-mobile {
+        display: none;
+        visibility: hidden;
+    }
 }
