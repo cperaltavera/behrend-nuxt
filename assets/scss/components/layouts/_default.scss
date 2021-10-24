@@ -32,7 +32,7 @@ nav ul li a.nuxt-link-exact-active {
     color: #666;
 }
 .footer-title {
-    color: rgba(0,0,0,0.87);
+    color: #333;
     font-size: 18px;
     font-weight: 600;
 }
@@ -40,7 +40,7 @@ nav ul li a.nuxt-link-exact-active {
     color: #333;
     font-weight: 600;
     &:hover {
-        opacity: 0.5;
+        opacity: 0.6;
     }
 }
 .footer-copyright {
@@ -49,32 +49,6 @@ nav ul li a.nuxt-link-exact-active {
         .row {
             margin-bottom: 0px;
             color: #666;
-        }
-    }
-}
-/* Mobile */
-@media only screen and (max-width: 600px) {
-    .footer-copyright {
-        .desktop {
-            display: none;
-            visibility: hidden;
-        }
-        .mobile {
-            display: block;
-            visibility: visible;
-        }
-    }
-}
-/* Desktop */
-@media only screen and (min-width: 601px) {
-    .footer-copyright {
-        .desktop {
-            display: block;
-            visibility: visible;
-        }
-        .mobile {
-            display: none;
-            visibility: hidden;
         }
     }
 }

@@ -56,12 +56,12 @@
         </div>
       </div>
       <div class="footer-copyright">
-        <div class="container desktop">
+        <div class="container show-on-medium-and-up hide-on-small-only">
           <div class="row">
             <div class="col s12">© Copyright <a class="footer-link" href="#">Grúas Behrend</a>. Todos los derechos reservados. Powered by <a class="footer-link" href="#">Dev-Manage</a>.</div>
           </div>
         </div>
-        <div class="container mobile center">
+        <div class="container show-on-small hide-on-med-and-up center">
           <div class="row">
             <div class="col s12">© Copyright <a class="footer-link" href="#">Grúas Behrend</a>.</div>
             <div class="col s12">Todos los derechos reservados.</div>
