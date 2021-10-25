@@ -4,14 +4,14 @@
       <div class="nav-wrapper container">
         <NuxtLink to="/" id="logo-container" class="brand-logo">Grúas Behrend</NuxtLink>
         <ul class="right hide-on-med-and-down">
-          <li><NuxtLink to="/">Nosotros</NuxtLink></li>
-          <li><NuxtLink to="/1">Servicios</NuxtLink></li>
-          <li><NuxtLink to="/2">Agenda</NuxtLink></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#agenda">Agenda</a></li>
         </ul>
         <ul id="nav-mobile" class="sidenav">
-          <li><NuxtLink to="/">Nosotros</NuxtLink></li>
-          <li><NuxtLink to="/1">Servicios</NuxtLink></li>
-          <li><NuxtLink to="/2">Agenda</NuxtLink></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#agenda">Agenda</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger">
           <i class="material-icons">menu</i>

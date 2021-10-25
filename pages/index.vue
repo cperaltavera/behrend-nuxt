@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="section center">
+    <div id="nosotros" class="section center">
       <div class="row">
         <h3>Nosotros</h3>
         <div class="column s12">
@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="divider"></div>
-    <div class="section center">
+    <div id="servicios" class="section center">
       <div class="row">
         <h3>Servicios</h3>
         <div class="col s12 m4">
@@ -36,7 +36,7 @@
       </div>
     </div>
     <div class="divider"></div>
-    <div class="section center">
+    <div id="agenda" class="section center">
       <div class="row">
         <h3>Agenda</h3>
         <div class="col s12">
