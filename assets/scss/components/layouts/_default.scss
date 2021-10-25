@@ -1,9 +1,14 @@
 // Mains
 body {
     background-color: #f4f4f4;
+    line-height: 1.4;
+    font-size: 16px;
 }
 .section {
     padding: 20px 0px 0px 0px;
+}
+.bold {
+    font-weight: 600;
 }
 
 // Nav
@@ -33,18 +38,14 @@ nav ul li a.nuxt-link-exact-active {
 }
 .footer-title {
     color: #333;
-    font-size: 18px;
-    font-weight: 600;
 }
 .footer-link {
     color: #333;
-    font-weight: 600;
     &:hover {
         opacity: 0.6;
     }
 }
 .footer-copyright {
-    font-size: 12px;
     .container {
         .row {
             margin-bottom: 0px;

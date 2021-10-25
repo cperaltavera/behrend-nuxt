@@ -2,7 +2,7 @@
   <div>
     <nav role="navigation">
       <div class="nav-wrapper container">
-        <NuxtLink to="/" id="logo-container" class="brand-logo">Logo</NuxtLink>
+        <NuxtLink to="/" id="logo-container" class="brand-logo">Grúas Behrend</NuxtLink>
         <ul class="right hide-on-med-and-down">
           <li><NuxtLink to="/">Nosotros</NuxtLink></li>
           <li><NuxtLink to="/1">Servicios</NuxtLink></li>
@@ -42,30 +42,44 @@
     <footer class="page-footer">
       <div class="container">
         <div class="row">
-          <div class="col l6 s12">
-            <h5 class="footer-title">Store Bio</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum congue ante, eu ultrices eros finibus ut. Donec libero ligula, varius tincidunt metus non, aliquet faucibus purus. Vivamus eleifend ligula metus, eget cursus quam iaculis vel. Donec enim lacus, scelerisque nec consequat eu, dapibus in augue.</p>
+          <div class="col s12 m6 xl4">
+            <h6 class="footer-title bold">Grúas Behrend</h6>
+            <p>
+              Dirección<br>
+              Osorno, Región de Los Lagos<br>
+              Chile<br><br>
+              <span class="bold">Teléfono:</span> +56 9 5611 5391<br>
+              <span class="bold">Email:</span> contacto@dev-manage.com
+            </p>
           </div>
-          <div class="col l3 s12">
-            <h5 class="footer-title">Site Links</h5>
+          <div class="col s12 m6 xl4">
+            <h6 class="footer-title bold">Enlaces Útiles</h6>
             <ul>
-              <li><NuxtLink to="/" class="footer-link">Home</NuxtLink></li>
-              <li><NuxtLink to="/products" class="footer-link">Products</NuxtLink></li>
+              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <NuxtLink to="/" class="footer-link">Nosotros</NuxtLink></li>
+              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <NuxtLink to="/1" class="footer-link">Servicios</NuxtLink></li>
+              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <NuxtLink to="/2" class="footer-link">Agenda</NuxtLink></li>
             </ul>
+          </div>
+          <div class="col s12 m12 xl4">
+            <h6 class="footer-title bold">Redes Sociales</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum congue ante, eu ultrices eros finibus ut. Donec libero ligula, varius tincidunt metus non, aliquet faucibus purus. Vivamus eleifend ligula metus, eget cursus quam iaculis vel. Donec enim lacus, scelerisque nec consequat eu, dapibus in augue.</p>
           </div>
         </div>
       </div>
       <div class="footer-copyright">
         <div class="container show-on-medium-and-up hide-on-small-only">
           <div class="row">
-            <div class="col s12">© Copyright <a class="footer-link" href="#">Grúas Behrend</a>. Todos los derechos reservados. Powered by <a class="footer-link" href="#">Dev-Manage</a>.</div>
+            <div class="col s12"><small> © Copyright <a class="footer-link bold" href="#">Grúas Behrend</a>. Todos los derechos reservados. Powered by <a class="footer-link bold" href="#">Dev-Manage</a>.</small></div>
           </div>
         </div>
         <div class="container show-on-small hide-on-med-and-up center">
           <div class="row">
-            <div class="col s12">© Copyright <a class="footer-link" href="#">Grúas Behrend</a>.</div>
-            <div class="col s12">Todos los derechos reservados.</div>
-            <div class="col s12">Powered by <a class="footer-link" href="#">Dev-Manage</a>.</div>
+            <div class="col s12">
+              <small>
+                © Copyright <a class="footer-link bold" href="#">Grúas Behrend</a>. Todos los derechos reservados.<br>
+                Powered by <a class="footer-link bold" href="#">Dev-Manage</a>.
+              </small>
+            </div>
           </div>
         </div>
       </div>
