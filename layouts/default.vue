@@ -55,9 +55,9 @@
           <div class="col s12 m6 xl4">
             <h6 class="footer-title bold">Enlaces Útiles</h6>
             <ul>
-              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <NuxtLink to="/" class="footer-link">Nosotros</NuxtLink></li>
-              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <NuxtLink to="/1" class="footer-link">Servicios</NuxtLink></li>
-              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <NuxtLink to="/2" class="footer-link">Agenda</NuxtLink></li>
+              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#nosotros" class="footer-link">Nosotros</a></li>
+              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#servicios" class="footer-link">Servicios</a></li>
+              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#agenda" class="footer-link">Agenda</a></li>
             </ul>
           </div>
           <div class="col s12 m12 xl4">

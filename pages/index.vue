@@ -1,16 +1,16 @@
 <template>
   <div class="container">
     <div id="nosotros" class="section center">
-      <div class="row">
+      <div class="row section-content">
         <h3>Nosotros</h3>
-        <div class="column s12">
+        <div class="col s12">
           <h5 class="thin">Somos una empresa líder en la carga, arrastre, enganche de vehículos en Osorno y hacia el exterior.</h5>
         </div>
       </div>
     </div>
     <div class="divider"></div>
     <div id="servicios" class="section center">
-      <div class="row">
+      <div class="row section-content">
         <h3>Servicios</h3>
         <div class="col s12 m4">
           <div class="center">
@@ -37,7 +37,7 @@
     </div>
     <div class="divider"></div>
     <div id="agenda" class="section center">
-      <div class="row">
+      <div class="row section-content">
         <h3>Agenda</h3>
         <div class="col s12">
           <h5 class="thin">Agenda tú servicio de grúas con nosotros!</h5>
