@@ -6,12 +6,12 @@
         <ul class="right hide-on-med-and-down">
           <li><a href="#nosotros">Nosotros</a></li>
           <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#agenda">Contáctenos</a></li>
         </ul>
         <ul id="nav-mobile" class="sidenav">
           <li><a href="#nosotros">Nosotros</a></li>
           <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#agenda">Contáctenos</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger">
           <i class="material-icons">menu</i>
@@ -21,10 +21,6 @@
 
     <div class="carousel carousel-slider center">
       <div class="carousel-fixed-item center">
-           <a class="btn waves-effect white grey-text darken-text-2"><i class="material-icons left">phone</i>+569 3259 4273</a>
-            <a class="btn waves-effect white grey-text darken-text-2"><i class="material-icons left">phone</i>+569 3259 4273</a>
-             <a class="btn waves-effect white grey-text darken-text-2"><i class="material-icons left">phone</i>+569 3259 4273</a>
-           <a class="btn waves-effect white grey-text darken-text-2"><i class="material-icons left">phone</i>+569 3259 4273</a>
         <a class="btn waves-effect white grey-text darken-text-2"><i class="material-icons left">phone</i>+569 3259 4273</a>
       </div>
       <div class="carousel-item" href="#one!">
@@ -52,8 +48,8 @@
               Dirección<br>
               Osorno, Región de Los Lagos<br>
               Chile<br><br>
-              <span class="bold">Teléfono:</span> +56 9 5611 5391<br>
-              <span class="bold">Email:</span> contacto@dev-manage.com
+              <span class="bold">Teléfono:</span> +569 3259 4273<br>
+              <span class="bold">Email:</span> gruasbehrend@gmail.com
             </p>
           </div>
           <div class="col s12 m6 xl4">
@@ -61,7 +57,7 @@
             <ul>
               <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#nosotros" class="footer-link">Nosotros</a></li>
               <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#servicios" class="footer-link">Servicios</a></li>
-              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#agenda" class="footer-link">Agenda</a></li>
+              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#agenda" class="footer-link">Contáctenos</a></li>
             </ul>
           </div>
           <div class="col s12 m12 xl4">
