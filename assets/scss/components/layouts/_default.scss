@@ -10,31 +10,29 @@ body {
 .section {
     padding: 20px 0px 20px 0px;
 }
-.section-content {
-    h3 {
-        position: relative;
-        margin-bottom: 20px;
-        padding-bottom: 20px;
-        &:before {
-            content: '';
-            position: absolute;
-            display: block;
-            width: 120px;
-            height: 1px;
-            background-color: #ddd;
-            bottom: 1px;
-            left: calc(50% - 60px);
-        }
-        &:after {
-            content: '';
-            position: absolute;
-            display: block;
-            width: 40px;
-            height: 3px;
-            background-color: #26a69a;
-            bottom: 0;
-            left: calc(50% - 20px);
-        }
+.section-title {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    &:before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 120px;
+        height: 1px;
+        background-color: #ddd;
+        bottom: 1px;
+        left: calc(50% - 60px);
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 40px;
+        height: 3px;
+        background-color: #26a69a;
+        bottom: 0;
+        left: calc(50% - 20px);
     }
 }
 .bold {
@@ -95,7 +93,8 @@ nav ul li a.nuxt-link-exact-active {
 }
 
 .frame {
-    padding: 10px;
+    height: 100%;
+    padding: 20px;
     background-color: #fff;
     transition: box-shadow .25s;
     border-radius: 2px;
