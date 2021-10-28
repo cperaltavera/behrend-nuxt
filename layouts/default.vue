@@ -1,17 +1,17 @@
 <template>
   <div>
-    <nav role="navigation">
+    <nav id="home" role="navigation">
       <div class="nav-wrapper container">
         <NuxtLink to="/" id="logo-container" class="brand-logo">Grúas Behrend</NuxtLink>
         <ul class="right hide-on-med-and-down">
           <li><a href="#nosotros">Nosotros</a></li>
           <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#agenda">Contáctenos</a></li>
+          <li><a href="#contactenos">Contáctenos</a></li>
         </ul>
         <ul id="nav-mobile" class="sidenav">
           <li><a href="#nosotros">Nosotros</a></li>
           <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#agenda">Contáctenos</a></li>
+          <li><a href="#contactenos">Contáctenos</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger">
           <i class="material-icons">menu</i>
@@ -57,7 +57,7 @@
             <ul>
               <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#nosotros" class="footer-link">Nosotros</a></li>
               <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#servicios" class="footer-link">Servicios</a></li>
-              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#agenda" class="footer-link">Contáctenos</a></li>
+              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#contactenos" class="footer-link">Contáctenos</a></li>
             </ul>
           </div>
           <div class="col s12 m12 xl4">
@@ -95,7 +95,7 @@
           <div class="row">
             <div class="col s12">
               <small>
-                © Copyright <a class="footer-link bold" href="#">Grúas Behrend</a>. Todos los derechos reservados.<br>
+                © Copyright <a class="footer-link bold" href="#home">Grúas Behrend</a>. Todos los derechos reservados.<br>
                 Powered by <a class="footer-link bold" href="#">Dev-Manage</a>.
               </small>
             </div>
@@ -120,14 +120,18 @@
 export default {
   mounted() {
     this.$M.AutoInit();
-    var elems = document.querySelectorAll(".carousel");
-    this.$M.Carousel.init(elems, {
+    var carousel = document.querySelectorAll(".carousel");
+    this.$M.Carousel.init(carousel, {
       fullWidth: true,
       indicators: true
     });
     setInterval(() => {
-      this.$M.Carousel.getInstance(elems[0]).next();
+      this.$M.Carousel.getInstance(carousel[0]).next();
     }, 6000);
+    var fabtn = document.querySelector('.fixed-action-btn');
+    this.$M.FloatingActionButton.init(fabtn, {
+      hoverEnabled: false
+    });
   }
 };
 </script>
