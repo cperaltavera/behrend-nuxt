@@ -13,7 +13,7 @@
       <h3 class="section-title">Servicios</h3>
       <div class="row" style="display: flex; flex-wrap: wrap;">
         <div class="col s12 m6" style="margin-top: 10px; margin-bottom: 10px;">
-          <a @click="open_floating">
+          <a @click="open_floating" style="color: rgba(0, 0, 0, 0.87);">
           <div class="frame center hoverable">
             <svg fill="#000000" width="92" height="92" version="1.1" id="lni_lni-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
               <g>

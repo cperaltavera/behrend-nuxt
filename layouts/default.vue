@@ -21,7 +21,7 @@
 
     <div class="carousel carousel-slider center">
       <div class="carousel-fixed-item center">
-        <a class="btn waves-effect white grey-text darken-text-2"><i class="material-icons left">phone</i>+569 3259 4273</a>
+        <a id="quick-btn" class="btn waves-effect"><i class="material-icons left">phone</i>+569 3259 4273</a>
       </div>
       <div class="carousel-item" href="#one!">
         <img src="../assets/images/01.jpg">
