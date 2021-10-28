@@ -13,7 +13,7 @@
       <div class="row section-content">
         <h3>Servicios</h3>
         <div class="col s12 m6">
-          <div class="center">
+          <div class="frame center hoverable">
             <svg fill="#000000" width="92" height="92" version="1.1" id="lni_lni-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
               <g>
                 <circle cx="32.7" cy="12.9" r="2"/>
@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col s12 m6">
-          <div class="center">
+          <div class="frame center hoverable">
             <svg fill="#000000" width="92" height="92" version="1.1" id="lni_lni-calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
               <g>
                 <path d="M17.8,37.8h-3.3c-0.6,0-1,0.4-1,1V42c0,0.6,0.4,1,1,1h3.3c0.6,0,1-0.4,1-1v-3.2C18.8,38.2,18.4,37.8,17.8,37.8z"/>
