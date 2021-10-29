@@ -21,7 +21,7 @@
 
     <div class="carousel carousel-slider center">
       <div class="carousel-fixed-item center">
-        <a id="quick-btn" class="btn waves-effect"><i class="material-icons left">phone</i>+569 3259 4273</a>
+        <a href="tel:+56932594273" rel="nofollow" id="quick-btn" class="btn waves-effect"><i class="material-icons left">phone</i>+569 3259 4273</a>
       </div>
       <div class="carousel-item" href="#one!">
         <img src="../assets/images/01.jpg">
@@ -64,14 +64,14 @@
             <h6 class="footer-title bold">Redes Sociales</h6>
             <ul class="social-icons">
               <li>
-                <a href="https://facebook.com" target="_blank">
+                <a href="https://www.facebook.com/huevos.carimallin.5" rel="nofollow" target="_blank">
                   <svg fill="#000000" width="32" height="32" version="1.1" id="lni_lni-facebook-original" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
                     <path d="M59.5,1h-55C2.5,1,1,2.6,1,4.5v55c0,2,1.6,3.5,3.5,3.5h29.6V38.9h-8v-9.3h8v-6.9c0-8,4.8-12.4,12-12.4c2.4,0,4.8,0.1,7.2,0.4V19h-4.8c-3.8,0-4.6,1.8-4.6,4.5v5.9H53l-1.3,9.4h-8v23.8h15.8c2,0,3.5-1.5,3.5-3.5V4.5C62.9,2.5,61.3,1,59.5,1z"/>
                   </svg>
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com" target="_blank">
+                <a href="https://www.instagram.com/gruas_behrend/" rel="nofollow" target="_blank">
                   <svg fill="#000000" width="32" height="32" version="1.1" id="lni_lni-instagram-original" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
                     <g>
 	                  <path d="M62.9,19.2c-0.1-3.2-0.7-5.5-1.4-7.6S59.7,7.8,58,6.1s-3.4-2.7-5.4-3.5c-2-0.8-4.2-1.3-7.6-1.4C41.5,1,40.5,1,32,1s-9.4,0-12.8,0.1s-5.5,0.7-7.6,1.4S7.8,4.4,6.1,6.1s-2.8,3.4-3.5,5.5c-0.8,2-1.3,4.2-1.4,7.6S1,23.5,1,32s0,9.4,0.1,12.8c0.1,3.4,0.7,5.5,1.4,7.6c0.7,2.1,1.8,3.8,3.5,5.5s3.5,2.8,5.5,3.5c2,0.7,4.2,1.3,7.6,1.4C22.5,63,23.4,63,31.9,63s9.4,0,12.8-0.1s5.5-0.7,7.6-1.4c2.1-0.7,3.8-1.8,5.5-3.5s2.8-3.5,3.5-5.5c0.7-2,1.3-4.2,1.4-7.6c0.1-3.2,0.1-4.2,0.1-12.7S63,22.6,62.9,19.2zM57.3,44.5c-0.1,3-0.7,4.6-1.1,5.8c-0.6,1.4-1.3,2.5-2.4,3.5c-1.1,1.1-2.1,1.7-3.5,2.4c-1.1,0.4-2.7,1-5.8,1.1c-3.2,0-4.2,0-12.4,0s-9.3,0-12.5-0.1c-3-0.1-4.6-0.7-5.8-1.1c-1.4-0.6-2.5-1.3-3.5-2.4c-1.1-1.1-1.7-2.1-2.4-3.5c-0.4-1.1-1-2.7-1.1-5.8c0-3.1,0-4.1,0-12.4s0-9.3,0.1-12.5c0.1-3,0.7-4.6,1.1-5.8c0.6-1.4,1.3-2.5,2.3-3.5c1.1-1.1,2.1-1.7,3.5-2.3c1.1-0.4,2.7-1,5.8-1.1c3.2-0.1,4.2-0.1,12.5-0.1s9.3,0,12.5,0.1c3,0.1,4.6,0.7,5.8,1.1c1.4,0.6,2.5,1.3,3.5,2.3c1.1,1.1,1.7,2.1,2.4,3.5c0.4,1.1,1,2.7,1.1,5.8c0.1,3.2,0.1,4.2,0.1,12.5S57.4,41.3,57.3,44.5z"/>
@@ -108,9 +108,9 @@
         <i class="large material-icons">more_vert</i>
       </a>
       <ul>
-        <li><a class="btn-floating red"><i class="material-icons">email</i></a></li>
+        <li><a href="mailto:gruasbehrend@gmail.com" rel="nofollow" class="btn-floating red"><i class="material-icons">email</i></a></li>
         <li>
-          <a class="btn-floating green">
+          <a href="https://wa.me/+56932594273" rel="nofollow" class="btn-floating green">
             <svg fill="#ffffff" width="40" height="40" version="1.1" id="lni_lni-whatsapp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64; padding: 0px 7px" xml:space="preserve">
               <g id="WA_Logo">
                 <g>
@@ -120,7 +120,7 @@
             </svg>
           </a>
         </li>
-        <li><a class="btn-floating blue"><i class="material-icons">phone</i></a></li>
+        <li><a href="tel:+56932594273" rel="nofollow" class="btn-floating blue"><i class="material-icons">phone</i></a></li>
       </ul>
     </div>
   </div>
