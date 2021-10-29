@@ -20,8 +20,15 @@
     </nav>
 
     <div class="carousel carousel-slider center">
-      <div class="carousel-fixed-item center">
-        <a href="tel:+56932594273" rel="nofollow" id="quick-btn" class="btn waves-effect"><i class="material-icons left">phone</i>+569 3259 4273</a>
+      <div class="carousel-fixed-item center hide-on-small-only">
+          <div class="row">
+            <a href="tel:+56932594273" rel="nofollow">
+              <div class="col m10 l8 xl6 offset-m1 offset-l2 offset-xl3 quick-btn hoverable">
+                <h2><i class="material-icons small" style="font-size: 2.8rem">phone</i> +569 3259 4273</h2>
+              </div>
+            </a>
+          </div>
+        <!-- <a href="tel:+56932594273" rel="nofollow" id="quick-btn" class="btn waves-effect"><i class="material-icons left">phone</i>+569 3259 4273</a> -->
       </div>
       <div class="carousel-item" href="#one!">
         <img src="../assets/images/01.jpg">
@@ -35,6 +42,19 @@
       <div class="carousel-item white-text" href="#four!">
         <img src="../assets/images/04.jpg">
       </div>
+    </div>
+
+    <div class="container">
+      <div class="section center hide-on-med-and-up">
+        <div class="col s12" style="margin-top: 10px; margin-bottom: 10px;">
+          <a href="tel:+56932594273" rel="nofollow">
+            <div class="frame center hoverable teal white-text">
+              <h4><i class="material-icons small">phone</i> +569 3259 4273</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="divider"></div>
     </div>
 
     <Nuxt />
