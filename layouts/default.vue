@@ -4,14 +4,14 @@
       <div class="nav-wrapper container">
         <NuxtLink to="/" id="logo-container" class="brand-logo">Grúas Behrend</NuxtLink>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#nosotros">Nosotros</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#contactenos">Contáctenos</a></li>
+          <li><NuxtLink to="#nosotros">Nosotros</NuxtLink></li>
+          <li><NuxtLink to="#servicios">Servicios</NuxtLink></li>
+          <li><NuxtLink to="#contactenos">Contáctenos</NuxtLink></li>
         </ul>
         <ul id="nav-mobile" class="sidenav">
-          <li><a href="#nosotros">Nosotros</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#contactenos">Contáctenos</a></li>
+          <li><NuxtLink to="#nosotros" class="sidenav-close">Nosotros</NuxtLink></li>
+          <li><NuxtLink to="#servicios" class="sidenav-close">Servicios</NuxtLink></li>
+          <li><NuxtLink to="#contactenos" class="sidenav-close">Contáctenos</NuxtLink></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger">
           <i class="material-icons">menu</i>
@@ -55,9 +55,9 @@
           <div class="col s12 m6 xl4">
             <h6 class="footer-title bold">Enlaces Útiles</h6>
             <ul>
-              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#nosotros" class="footer-link">Nosotros</a></li>
-              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#servicios" class="footer-link">Servicios</a></li>
-              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <a href="#contactenos" class="footer-link">Contáctenos</a></li>
+              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <NuxtLink to="#nosotros" class="footer-link">Nosotros</NuxtLink></li>
+              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <NuxtLink to="#servicios" class="footer-link">Servicios</NuxtLink></li>
+              <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <NuxtLink to="#contactenos" class="footer-link">Contáctenos</NuxtLink></li>
             </ul>
           </div>
           <div class="col s12 m12 xl4">
@@ -88,15 +88,15 @@
       <div class="footer-copyright">
         <div class="container show-on-medium-and-up hide-on-small-only">
           <div class="row">
-            <div class="col s12"><small> © Copyright <a class="footer-link bold" href="#">Grúas Behrend</a>. Todos los derechos reservados. Powered by <a class="footer-link bold" href="#">Dev-Manage</a>.</small></div>
+            <div class="col s12"><small> © Copyright <NuxtLink to="/" class="footer-link bold">Grúas Behrend</NuxtLink>. Todos los derechos reservados. Powered by <a class="footer-link bold" href="https://dev-manage.com/" rel="nofollow" target="_blank">Dev-Manage</a>.</small></div>
           </div>
         </div>
         <div class="container show-on-small hide-on-med-and-up center">
           <div class="row">
             <div class="col s12">
               <small>
-                © Copyright <a class="footer-link bold" href="#home">Grúas Behrend</a>. Todos los derechos reservados.<br>
-                Powered by <a class="footer-link bold" href="#">Dev-Manage</a>.
+                © Copyright <NuxtLink to="/" class="footer-link bold">Grúas Behrend</NuxtLink>. Todos los derechos reservados.<br>
+                Powered by <a class="footer-link bold" href="https://dev-manage.com/" rel="nofollow" target="_blank">Dev-Manage</a>.
               </small>
             </div>
           </div>
