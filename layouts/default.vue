@@ -28,7 +28,6 @@
               </div>
             </a>
           </div>
-        <!-- <a href="tel:+56932594273" rel="nofollow" id="quick-btn" class="btn waves-effect"><i class="material-icons left">phone</i>+569 3259 4273</a> -->
       </div>
       <div class="carousel-item" href="#one!">
         <img src="../assets/images/01.jpg">
