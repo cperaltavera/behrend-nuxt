@@ -23,8 +23,8 @@
       <div class="carousel-fixed-item center hide-on-small-only">
           <div class="row">
             <a href="tel:+56932594273" rel="nofollow">
-              <div class="col m10 l8 xl6 offset-m1 offset-l2 offset-xl3 quick-btn hoverable">
-                <h2><i class="material-icons small" style="font-size: 2.8rem">phone</i> +569 3259 4273</h2>
+              <div class="col m10 l8 xl6 offset-m1 offset-l2 offset-xl3 quick-btn hoverable z-depth-3">
+                <h2><i class="material-icons" style="font-size: 2.8rem">phone</i> +569 3259 4273</h2>
               </div>
             </a>
           </div>
@@ -43,18 +43,20 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="section center hide-on-med-and-up">
-        <div class="col s12" style="margin-top: 10px; margin-bottom: 10px;">
-          <a href="tel:+56932594273" rel="nofollow">
-            <div class="frame center hoverable teal white-text">
-              <h4><i class="material-icons small">phone</i> +569 3259 4273</h4>
-            </div>
-          </a>
+    <section class="section-secondary center hide-on-med-and-up">
+      <div class="container">
+        <div class="row">
+          <div class="col s12" style="margin-top: 10px;">
+              <a href="tel:+56932594273" rel="nofollow">
+                <div class="frame quick-btn hoverable z-depth-3">
+                  <h4><i class="material-icons small">phone</i> +569 3259 4273</h4>
+                </div>
+              </a>
+          </div>
         </div>
       </div>
-      <div class="divider"></div>
-    </div>
+    </section>
+    <div class="divider"></div>
 
     <Nuxt />
 
