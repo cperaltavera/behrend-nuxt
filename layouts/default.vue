@@ -2,7 +2,7 @@
   <div>
     <nav id="home" role="navigation">
       <div class="nav-wrapper container">
-        <NuxtLink to="/" id="logo-container" class="brand-logo">Grúas Behrend</NuxtLink>
+        <NuxtLink to="/" class="brand-logo">Grúas Behrend</NuxtLink>
         <ul class="right hide-on-med-and-down">
           <li><NuxtLink to="#nosotros">Nosotros</NuxtLink></li>
           <li><NuxtLink to="#servicios">Servicios</NuxtLink></li>
@@ -62,7 +62,7 @@
       <div class="container">
         <div class="row">
           <div class="col s12 m6 xl4">
-            <h6 class="footer-title bold">Grúas Behrend</h6>
+            <h5>Grúas Behrend</h5>
             <p>
               Dirección<br>
               Osorno, Región de Los Lagos<br>
@@ -72,7 +72,7 @@
             </p>
           </div>
           <div class="col s12 m6 xl4">
-            <h6 class="footer-title bold">Enlaces Útiles</h6>
+            <h5>Enlaces Útiles</h5>
             <ul>
               <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <NuxtLink to="#nosotros" class="footer-link">Nosotros</NuxtLink></li>
               <li class="valign-wrapper"><i class="tiny material-icons">keyboard_arrow_right</i> <NuxtLink to="#servicios" class="footer-link">Servicios</NuxtLink></li>
@@ -80,8 +80,8 @@
             </ul>
           </div>
           <div class="col s12 m12 xl4">
-            <h6 class="footer-title bold">Redes Sociales</h6>
-            <ul class="social-icons">
+            <h5>Redes Sociales</h5>
+            <ul class="social-icons flex">
               <li>
                 <a href="https://www.facebook.com/huevos.carimallin.5" rel="nofollow" target="_blank">
                   <svg fill="#000000" width="32" height="32" version="1.1" id="lni_lni-facebook-original" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">

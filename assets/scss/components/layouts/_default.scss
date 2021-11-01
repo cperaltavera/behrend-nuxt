@@ -3,12 +3,43 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: #f4f4f4;
-    line-height: 1.4;
+    color: $primary_text;
     font-size: 16px;
+    line-height: 1.4;
 }
-.section {
+section {
     padding: 20px 0px 20px 0px;
+}
+a {
+    color: $primary_text;
+}
+
+// Nav
+nav {
+    background-color: $dark;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20%);
+}
+nav .brand-logo, nav .sidenav-trigger, nav ul li a{
+    color: $oposite_text;
+}
+nav ul li a.nuxt-link-exact-active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+nav .sidenav li a.nuxt-link-exact-active {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+// Carousel
+.carousel {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20%);
+}
+
+// Section
+.section-primary {
+    background-color: $primary_background;
+}
+.section-secondary {
+    background-color: $secondary_background;
 }
 .section-title {
     position: relative;
@@ -20,7 +51,7 @@ body {
         display: block;
         width: 120px;
         height: 1px;
-        background-color: #ddd;
+        background-color: $light_primary;
         bottom: 1px;
         left: calc(50% - 60px);
     }
@@ -30,56 +61,38 @@ body {
         display: block;
         width: 40px;
         height: 3px;
-        background-color: #26a69a;
+        background-color: $primary;
         bottom: 0;
         left: calc(50% - 20px);
     }
+}
+
+// Helpers
+.flex {
+    display: flex; 
+    flex-wrap: wrap;
 }
 .bold {
     font-weight: 600;
 }
 
-// Nav
-nav {
-    background-color: $dark;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20%);
-}
-nav ul a, nav .brand-logo {
-    color: white;
-}
-.sidenav-trigger {
-    color: white;
-}
-nav ul li a.nuxt-link-exact-active {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-// Carousel
-.carousel {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20%);
-}
-
 // Footer
 .page-footer {
-    background-color: #e6e6e6;
-    color: #666;
-}
-.footer-title {
-    color: #333;
+    background-color: $primary;
+    color: $oposite_text;
 }
 .footer-link {
-    color: #333;
+    color: $light_primary;
     &:hover {
-        opacity: 0.6;
+        opacity: 0.7;
     }
 }
 .social-icons {
-    display: flex;
-    flex-wrap: wrap;
     svg {
+        fill: $oposite_text;
         margin: 0 24px 15px 0;
         &:hover {
-            opacity: 0.6;
+            opacity: 0.7;
         }
     }
 }
@@ -87,7 +100,6 @@ nav ul li a.nuxt-link-exact-active {
     .container {
         .row {
             margin-bottom: 0px;
-            color: #666;
         }
     }
 }
