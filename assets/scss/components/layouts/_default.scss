@@ -111,6 +111,9 @@ nav .sidenav li a.nuxt-link-exact-active {
     background-color: #FFFFFF;
     transition: box-shadow .25s;
     border-radius: 2px;
+    svg {
+        fill: $dark_primary;
+    }
 }
 .quick-btn {
     border: 4px solid #FFFFFF;

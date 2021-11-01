@@ -125,7 +125,7 @@
       </div>
     </footer>
     <div class="fixed-action-btn">
-      <a class="btn-floating btn-large teal">
+      <a class="btn-floating btn-large green darken-2">
         <i class="large material-icons">more_vert</i>
       </a>
       <ul>
